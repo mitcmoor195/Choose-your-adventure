@@ -59,14 +59,14 @@ namespace Choose_your_adventure
                     page = 9;
                 }
             }
-            /* else if (page == 6)
+            else if (page == 6)
              {
-                 page = ;
+                 page = 1 ;
              }
              else if (page == 7)
              {
-                 page = ;
-             }*/
+                 page = 1;
+             }
             else if (page == 8)
             {
                 page = 1;
@@ -99,10 +99,10 @@ namespace Choose_your_adventure
             {
                 page = 1;
             }
-            /* else if (page == 12)
+             else if (page == 12)
              {
                  page = 97;
-             }*/
+             }
             else if (page == 13)
             {
                 page = 97;
@@ -251,15 +251,11 @@ namespace Choose_your_adventure
                     break;
                 case 6:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 7:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 8:
                     outputLabel.Text = "The book is so boring it put you to sleep. You Die.\r\nPlay Again?";
@@ -563,14 +559,14 @@ namespace Choose_your_adventure
                     page = 10;
                 }
             }
-            /* else if (page == 6)
+             else if (page == 6)
              {
-                 page = ;
+                 page = 99 ;
              }
              else if (page == 7)
              {
-                 page = ;
-             }*/
+                 page = 99;
+             }
             else if (page == 8)
             {
                 page = 99;
@@ -743,15 +739,11 @@ namespace Choose_your_adventure
                     break;
                 case 6:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 7:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 8:
                     outputLabel.Text = "The book is so boring it put you to sleep. You Die.\r\nPlay Again?";
@@ -1102,15 +1094,11 @@ namespace Choose_your_adventure
                     break;
                 case 6:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 7:
                     outputLabel.Text = "Incomplete section";
-                    /*option1.Text = "Continue on (car required)";
-                    option2.Text = "Abandoned house";
-                    option3.Text = "Grocery store";*/
+                    option3Button.Enabled = false;
                     break;
                 case 8:
                     outputLabel.Text = "The book is so boring it put you to sleep. You Die.\r\nPlay Again?";
